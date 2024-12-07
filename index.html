@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="landingPage" class="landing-page">
+      <h1 class="app-title">Targaryen Trivia</h1>
+      <p class="welcome-text">
+        Test your knowledge of the dragonlords and their legacy
+      </p>
+      <button id="startQuizButton" class="play-button">PLAY</button>
+    </div>
+    <div id="quizContainer" class="quiz-container hidden">
+      <div class="question-box">
+        <p id="question"></p>
+      </div>
+
+      <div class="options-box">
+        <button class="option-btn">Option 1</button>
+        <button class="option-btn">Option 2</button>
+        <button class="option-btn">Option 3</button>
+        <button class="option-btn">Option 4</button>
+      </div>
+
+      <div class="navigation">
+        <button class="next-btn" id="nextButton">Next Question</button>
+      </div>
+    </div>
+
+    <script src="quiz.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
